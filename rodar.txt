@@ -1,0 +1,10 @@
+
+
+(Para rodar e aparecer o erro de nenhum nome fornecido.)
+curl.exe "http://localhost:3000/random/name"
+
+(Sortear um nome a partir da lista fornecida:)
+curl.exe "http://localhost:3000/random/name?names=Alice,Bob,Charlie,David,Eva"
+
+(Sortear um número aleatório entre 1 e 100:)
+curl.exe "http://localhost:3000/random?min=1&max=100"
